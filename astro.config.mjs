@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://menteora.github.io/blog-anticoach-astro/',
+base: '/blog-anticoach-astro/'
 	integrations: [mdx(), sitemap()],
 });
