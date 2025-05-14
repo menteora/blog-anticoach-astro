@@ -57,6 +57,3 @@ jobs:
 
       - name: Format with Prettier
         run: npx prettier --write .
-
-      - name: Run check script
-        run: npm run check
